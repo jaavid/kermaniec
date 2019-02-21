@@ -24,6 +24,9 @@ if ( ! function_exists( 'kermaniec_setup' ) ) :
 		 */
 		load_theme_textdomain( 'kermaniec', get_template_directory() . '/languages' );
 
+		//Special IEC Functions	
+	    add_filter('excerpt_more', 'iec_excerpt_more');	
+
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
 
@@ -160,3 +163,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * IEC additions.
+ */
+require get_template_directory() . '/inc/iec.php';

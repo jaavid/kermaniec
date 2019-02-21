@@ -27,7 +27,7 @@
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  border-radius: 0.28571429rem;
+  border-radius: 0.07142857rem;
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
@@ -38,12 +38,12 @@
 .ui.modal > .icon:first-child + *,
 .ui.modal > .dimmer:first-child + *:not(.icon),
 .ui.modal > .dimmer:first-child + .icon + * {
-  border-top-left-radius: 0.28571429rem;
-  border-top-right-radius: 0.28571429rem;
+  border-top-left-radius: 0.07142857rem;
+  border-top-right-radius: 0.07142857rem;
 }
 .ui.modal > :last-child {
-  border-bottom-left-radius: 0.28571429rem;
-  border-bottom-right-radius: 0.28571429rem;
+  border-bottom-left-radius: 0.07142857rem;
+  border-bottom-right-radius: 0.07142857rem;
 }
 
 
@@ -79,7 +79,7 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vazir', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   margin: 0;
   padding: 1.25rem 1.5rem;

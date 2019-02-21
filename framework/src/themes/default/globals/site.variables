@@ -6,14 +6,14 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Lato';
+@fontName          : 'Vazir';
 @fontSmoothing     : antialiased;
 
 @headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
 @googleFontName    : @fontName;
-@importGoogleFonts : true;
+@importGoogleFonts : false;
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
@@ -43,7 +43,7 @@
    for explanation of @px variables
 */
 @relativeBorderRadius: @relative4px;
-@absoluteBorderRadius: @4px;
+@absoluteBorderRadius: @1px;
 
 @defaultBorderRadius: @absoluteBorderRadius;
 
@@ -51,8 +51,8 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
-@secondaryColor      : @black;
+@primaryColor        : @purple;
+@secondaryColor      : @violet;
 
 @lightPrimaryColor   : @lightBlue;
 @lightSecondaryColor : @lightBlack;

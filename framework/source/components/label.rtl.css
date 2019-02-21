@@ -25,7 +25,7 @@
   text-transform: none;
   font-weight: bold;
   border: 0 solid transparent;
-  border-radius: 0.28571429rem;
+  border-radius: 0.07142857rem;
   -webkit-transition: background 0.1s ease;
   transition: background 0.1s ease;
 }
@@ -169,7 +169,7 @@ a.ui.label {
   text-transform: none;
   background: #E8E8E8;
   padding: 0.5833em 0.5em 0.5833em 0.833em;
-  border-radius: 0.28571429rem;
+  border-radius: 0.07142857rem;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -178,13 +178,13 @@ a.ui.label {
   vertical-align: top;
   height: 2.1666em;
   margin: -0.5833em -0.5em -0.5833em 0.5em;
-  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  border-radius: 0 0.07142857rem 0.07142857rem 0;
 }
 .ui.image.label .detail {
   background: rgba(0, 0, 0, 0.1);
   margin: -0.5833em 0.5em -0.5833em -0.833em;
   padding: 0.5833em 0.833em;
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.07142857rem 0 0 0.07142857rem;
 }
 
 /*-------------------
@@ -197,7 +197,7 @@ a.ui.label {
   position: relative;
   padding-right: 1.5em;
   padding-left: 1.5em;
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.07142857rem 0 0 0.07142857rem;
   -webkit-transition: none;
   transition: none;
 }
@@ -329,7 +329,7 @@ a.ui.label {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.07142857rem 0 0 0.07142857rem;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .ui.ribbon.label:after {
@@ -364,7 +364,7 @@ a.ui.label {
   text-align: right;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  border-radius: 0 0.07142857rem 0.07142857rem 0;
 }
 .ui[class*="right ribbon"].label:after {
   right: auto;
@@ -422,19 +422,19 @@ a.ui.label {
 .ui[class*="top left attached"].label {
   width: auto;
   margin-top: 0 !important;
-  border-radius: 0 0.21428571rem 0 0.28571429rem;
+  border-radius: 0 0.21428571rem 0 0.07142857rem;
 }
 .ui[class*="top right attached"].label {
   width: auto;
   right: auto;
   left: 0;
-  border-radius: 0.21428571rem 0 0.28571429rem 0;
+  border-radius: 0.21428571rem 0 0.07142857rem 0;
 }
 .ui[class*="bottom left attached"].label {
   width: auto;
   top: auto;
   bottom: 0;
-  border-radius: 0.28571429rem 0 0.21428571rem 0;
+  border-radius: 0.07142857rem 0 0.21428571rem 0;
 }
 .ui[class*="bottom right attached"].label {
   top: auto;
@@ -442,7 +442,7 @@ a.ui.label {
   right: auto;
   left: 0;
   width: auto;
-  border-radius: 0 0.28571429rem 0 0.21428571rem;
+  border-radius: 0 0.07142857rem 0 0.21428571rem;
 }
 
 

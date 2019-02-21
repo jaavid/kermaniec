@@ -22,7 +22,7 @@
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-radius: 0.28571429rem;
+  border-radius: 0.07142857rem;
   text-align: right;
   vertical-align: middle;
   color: rgba(0, 0, 0, 0.87);
@@ -76,13 +76,13 @@
   border-right: none;
 }
 .ui.table thead tr:first-child > th:first-child {
-  border-radius: 0 0.28571429rem 0 0;
+  border-radius: 0 0.07142857rem 0 0;
 }
 .ui.table thead tr:first-child > th:last-child {
-  border-radius: 0.28571429rem 0 0 0;
+  border-radius: 0.07142857rem 0 0 0;
 }
 .ui.table thead tr:first-child > th:only-child {
-  border-radius: 0.28571429rem 0.28571429rem 0 0;
+  border-radius: 0.07142857rem 0.07142857rem 0 0;
 }
 
 /* Footer */
@@ -106,13 +106,13 @@
   border-right: none;
 }
 .ui.table tfoot tr:first-child > th:first-child {
-  border-radius: 0 0 0.28571429rem 0;
+  border-radius: 0 0 0.07142857rem 0;
 }
 .ui.table tfoot tr:first-child > th:last-child {
-  border-radius: 0 0 0 0.28571429rem;
+  border-radius: 0 0 0 0.07142857rem;
 }
 .ui.table tfoot tr:first-child > th:only-child {
-  border-radius: 0 0 0.28571429rem 0.28571429rem;
+  border-radius: 0 0 0.07142857rem 0.07142857rem;
 }
 
 /* Table Row */
@@ -567,7 +567,7 @@
   margin-bottom: 0;
   top: 0;
   margin-top: 1em;
-  border-radius: 0.28571429rem 0.28571429rem 0 0;
+  border-radius: 0.07142857rem 0.07142857rem 0 0;
 }
 .ui.table[class*="top attached"]:first-child {
   margin-top: 0;
@@ -581,7 +581,7 @@
   margin-bottom: 1em;
   -webkit-box-shadow: none, none;
           box-shadow: none, none;
-  border-radius: 0 0 0.28571429rem 0.28571429rem;
+  border-radius: 0 0 0.07142857rem 0.07142857rem;
 }
 .ui[class*="bottom attached"].table:last-child {
   margin-bottom: 0;

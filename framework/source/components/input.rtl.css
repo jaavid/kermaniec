@@ -37,12 +37,12 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: right;
   line-height: 1.21428571em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vazir', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.67857143em 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.28571429rem;
+  border-radius: 0.07142857rem;
   -webkit-transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
@@ -255,7 +255,7 @@
   height: 100%;
   width: 2.67142857em;
   opacity: 0.5;
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.07142857rem 0 0 0.07142857rem;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
@@ -287,7 +287,7 @@
 .ui[class*="left icon"].input > i.icon {
   left: auto;
   right: 1px;
-  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  border-radius: 0 0.07142857rem 0.07142857rem 0;
 }
 .ui[class*="left icon"].input > i.circular.icon {
   left: auto;
@@ -356,7 +356,7 @@
   top: 1px;
   left: 1px;
   font-size: 0.64285714em;
-  border-radius: 0.28571429rem 0 0 0;
+  border-radius: 0.07142857rem 0 0 0;
 }
 
 /* Spacing with corner label */
@@ -453,7 +453,7 @@
 .ui.action.input:not([class*="left action"]) > .dropdown:last-child,
 .ui.action.input:not([class*="left action"]) > .button:last-child,
 .ui.action.input:not([class*="left action"]) > .buttons:last-child > .button {
-  border-radius: 0.28571429rem 0 0 0.28571429rem;
+  border-radius: 0.07142857rem 0 0 0.07142857rem;
 }
 
 /* Input Focus */
@@ -475,7 +475,7 @@
 .ui[class*="left action"].input > .dropdown:first-child,
 .ui[class*="left action"].input > .button:first-child,
 .ui[class*="left action"].input > .buttons:first-child > .button {
-  border-radius: 0 0.28571429rem 0.28571429rem 0;
+  border-radius: 0 0.07142857rem 0.07142857rem 0;
 }
 
 /* Input Focus */

@@ -3,7 +3,61 @@
 		<div class="ui stackable grid">
 			<main id="main" class="site-main sixteen wide column">
 			<div class="ui grid">
-			  <div class="sixteen wide column">Home Slide</div>
+			  <div class="sixteen wide column">			  	
+			  	<div class="ui large images  slider-for">
+				<?php $args = array('category_name' => 'news-and-events,slides', 'posts_per_page' => 15, ); ?>
+				<?php $the_query = new WP_Query($args); ?>
+				<?php if ( $the_query->have_posts() ) : ?>
+					<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+						<div>
+							<div class="ui segment basic clearing">
+								<div class="ui spaced rounded bordered massive floated left image">
+									<?php 
+										if ( has_post_thumbnail() ) {
+											the_post_thumbnail('large');
+										} else {
+											?><img width="200" height="200" src="/wp-content/uploads/2014/12/cropped-images_news_Arm00-111-180x180.jpg" alt="<?php the_title(); ?>" /><?php
+										}
+									?>
+								  <div class="ui violet label large left ribbon">
+								  	<i class="calendar icon"></i> <?php unset($previousday); the_date(); ?> <i class="icon clock"></i> <?php the_time(); ?>
+								  </div>
+								</div>								
+								<h3 style="clear:none;"><?php the_title(); ?></h3>
+								<?php the_excerpt(); ?>
+						      				
+							  <span class="ui tag tiny labels">	
+						      	<?php the_tags('<span class="ui label"> ','</span><span class="ui label">', '</span>'); ?>
+						      </span>
+						      
+							</div>						      
+						</div>			
+					<?php endwhile; ?>			
+					<?php wp_reset_postdata(); ?>
+				<?php endif; ?>
+			</div>			
+			<div class="slider-nav ui three cards">
+				<?php $args = array('category_name' => 'news-and-events,slides', 'posts_per_page' => 15, ); ?>
+				<?php $the_query = new WP_Query($args); ?>
+				<?php if ( $the_query->have_posts() ) : ?>
+					<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+						<div>
+							<div class="ui clearing segment raised eqheight">
+								<?php 
+								if ( has_post_thumbnail() ) {
+									the_post_thumbnail('thumbnail', array('class'=>'ui left bordered rounded floated tiny image'));
+								} else {
+									?><img width="200" height="200" src="/wp-content/uploads/2014/12/cropped-images_news_Arm00-111-180x180.jpg" class="ui bordered rounded left floated tiny image" alt="<?php the_title(); ?>" /><?php
+								}
+							?>
+							<?php the_title(); ?>
+							</div>
+						</div>		
+					<?php endwhile; ?>			
+					<?php wp_reset_postdata(); ?>
+				<?php endif; ?>
+			</div>
+			  </div>
 			  <div class="four wide column">
 			  	<div class="ui vertical fluid inverted purple menu">
 				  <div class="item">
@@ -216,27 +270,38 @@
 			  	<a href="http://iec.kr.ir/wp-content/uploads/2016/05/Tashilat.pdf" class="ui purple fluid tiny labeled icon button"><i class="pdf file icon"></i>تسهیلات سرمایه در گردش رونق تولید</a>
 			  	<br />
 			  	<a href="http://iec.kr.ir/hsee" class="ui purple fluid tiny labeled icon button"><i class="clinic icon"></i>HSEE</a>
-			  	<br />			  	
-			  	<a href= "http://btsc-kr.ir/" class="ui large purple fluid  inverted tag label">مرکز فناوری کسب و کار</a>
-			  	<br /><br />
-			  	<a href="http://kerman.techmart.ir/" class="ui large purple fluid  inverted tag label">فن بازار کرمان</a>
-			  	<br /><br />
-			  	<a href="http://sif.ir/" class="ui tiny purple fluid  inverted tag label">صندوق ضمانت سرمایه گذاری صنایع کوچک</a>
-			  	<br /><br />
-			  	<a href="http://kccd.ir/" class="ui  purple fluid  inverted tag label">خوشه کسب و کار فرش دستباف   </a>
-			  	<br /><br />
-			  	<a href="http://jiroftgolkhane.ir/" class="ui tiny purple fluid  inverted tag label">خوشه کسب و کار محصولات گلخانه ای </a>
-			  	<br /><br />			  	
-			  	<a href="http://iranpistachio.org/" class="ui large purple fluid  inverted tag label">انجمن پسته</a>
-			  	<br /><br />
-			  	<a href="http://kermanpda.com/" class="ui large purple fluid  inverted tag label">انجمن خرما</a>
-			  	<br /><br />
-			  	<a href="http://kerman.isipo.ir/" class="ui large purple fluid  inverted tag label">سامانه دریافت انشعابات</a>
-			  	<br /><br />
-			  	<a href="http://gis.isipo.ir/" class="ui large purple fluid  inverted tag label">سامانه اطلاعات مکانی</a>
-			  	<br />
-			  	<hr />
-			  	Teetr
+			  	<div class="segment raised ui">
+		  			<a class="ui purple large ribbon label">وب سایتهای مرتبط</a>
+		  			<br />
+		  			<div class="content">
+		  				<br />
+					  	<a href= "http://btsc-kr.ir/" class="ui large purple fluid  inverted tag label">مرکز فناوری کسب و کار</a>
+					  	<br /><br />
+					  	<a href="http://kerman.techmart.ir/" class="ui large purple fluid  inverted tag label">فن بازار کرمان</a>
+					  	<br /><br />
+					  	<a href="http://sif.ir/" class="ui large purple fluid  inverted tag label">صندوق ضمانت سرمایه گذاری صنایع کوچک</a>
+					  	<br /><br />
+					  	<a href="http://kccd.ir/" class="ui large purple fluid  inverted tag label">خوشه کسب و کار فرش دستباف   </a>
+					  	<br /><br />
+					  	<a href="http://jiroftgolkhane.ir/" class="ui large purple fluid  inverted tag label">خوشه کسب و کار محصولات گلخانه ای </a>
+					  	<br /><br />			  	
+					  	<a href="http://iranpistachio.org/" class="ui large purple fluid  inverted tag label">انجمن پسته</a>
+					  	<br /><br />
+					  	<a href="http://kermanpda.com/" class="ui large purple fluid  inverted tag label">انجمن خرما</a>
+					  	<br /><br />
+					  	<a href="http://kerman.isipo.ir/" class="ui large purple fluid  inverted tag label">سامانه دریافت انشعابات</a>
+					  	<br /><br />
+					  	<a href="http://gis.isipo.ir/" class="ui large purple fluid  inverted tag label">سامانه اطلاعات مکانی</a>
+					</div>	
+			  	</div>
+			  	<div class="segment raised ui">
+		  			<a class="ui purple large ribbon label">نشریات استان کرمان</a>
+		  			<div class="content">
+		  				<script src="https://teetr.ir/widget" type="text/javascript" charset="utf-8"></script>
+		  			</div>
+		  			<div class="ui bottom attached label">تیتر : سامانه نشریات استان کرمان</div>
+		  		</div>
+		  		
 			  </div>
 			</div>
 			</main><!-- #main -->

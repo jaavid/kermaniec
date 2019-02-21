@@ -60,8 +60,30 @@
 </div><!-- #page -->
 <?php wp_footer(); ?>
 <script type="text/javascript" charset="utf-8">
-	jQuery(function($) {
-		$('.special.card .image').dimmer({on: 'hover'});
+	jQuery(function($) {		
+	    $(document).ready(function(){
+	    	$('.eqheight').matchHeight();
+	    	$('.special.card .image').dimmer({on: 'hover'});
+	    	$('.slider-for').slick({
+			  slidesToScroll: 	1,
+			  slidesToShow: 	1,			  
+			  asNavFor: 		'.slider-nav',
+			  autoplay: 		true,
+			  arrows: 			true,
+			  fade: 			true,
+			  rtl: 				true,
+			});
+			$('.slider-nav').slick({			  
+			  slidesToScroll: 	1,
+			  focusOnSelect: 	true,
+			  slidesToShow: 	3, 			  
+			  centerMode: 		true,
+			  asNavFor: 		'.slider-for',
+			  autoplay: 		true,
+			  dots: 			true,
+			  rtl: 				true
+			});
+	    });
 	});
 </script>
 </body>

@@ -47,15 +47,15 @@
 		  		</div>
 		  	</div>
 		  </div>
-		</footer>
-		<div class="ui segment basic fluid inverted purple">
+		  <div class="ui segment basic sixteen wide tiny center aligned column inverted purple">
 			<div class="abaan">
-				طراحی و پشتیبانی : <a href="http://abaan.ir">راهکارهای پایدار آبان</a>
-			</div>
-				<a href="https://github.com/jaavid/kermaniec" class="ui button icon">
+				طراحی و پشتیبانی : <a href="http://abaan.ir" class="ui inverted violet tiny basic button">راهکارهای پایدار آبان</a>
+				<a href="https://github.com/jaavid/kermaniec" class="ui button secondary tiny icon">
 					<i class="icon github"></i>
 				</a>
+			</div>				
 		</div>
+		</footer>		
 </div><!-- #page -->
 <?php wp_footer(); ?>
 	<?php if (is_front_page()) { ?>

@@ -12,7 +12,7 @@ body{direction:rtl;unicode-bidi:embed;}
  url('fonts/Vazir.woff2') format('woff2'),
  url('fonts/Vazir.woff') format('woff'),
  url('fonts/Vazir.ttf') format('truetype');font-weight:normal;font-style:normal;}
-@font-face{font-family:Vazir;src:url('fonts/Vazir-Bold.eot');src:url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+/*@font-face{font-family:Vazir;src:url('fonts/Vazir-Bold.eot');src:url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
  url('fonts/Vazir-Bold.woff2') format('woff2'),
  url('fonts/Vazir-Bold.woff') format('woff'),
  url('fonts/Vazir-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
@@ -31,7 +31,7 @@ body{direction:rtl;unicode-bidi:embed;}
 @font-face{font-family:Vazir;src:url('fonts/Vazir-Thin.eot');src:url('fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
  url('fonts/Vazir-Thin.woff2') format('woff2'),
  url('fonts/Vazir-Thin.woff') format('woff'),
- url('fonts/Vazir-Thin.ttf') format('truetype');font-weight:100;font-style:normal;}
+ url('fonts/Vazir-Thin.ttf') format('truetype');font-weight:100;font-style:normal;}*/
 #content{background-image:url(images/bg4.png);}
 div#primary>div.ui{background:#fff;}
 .ui.vertical.menu .item>i.icon, 
@@ -39,3 +39,4 @@ div#primary>div.ui{background:#fff;}
     float: right !important;
     margin: 0 0 0 .5em !important;
 }
+.slider-for{max-height: 400px !important; overflow: hidden;}

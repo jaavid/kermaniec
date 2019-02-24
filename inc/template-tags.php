@@ -26,11 +26,11 @@ if ( ! function_exists( 'kermaniec_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Posted on %s', 'post date', 'kermaniec' ),
+			esc_html_x( ' %s', 'post date', 'kermaniec' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
-		echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
+		echo '<span class="posted-on"> <i class="icon calendar"></i> ' . $posted_on . '</span>'; // WPCS: XSS OK.
 
 	}
 endif;
@@ -62,14 +62,14 @@ if ( ! function_exists( 'kermaniec_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'kermaniec' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'kermaniec' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+				printf( '<span class="cat-links">' . esc_html__( 'دسته بندی :  %1$s', 'kermaniec' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 			}
 
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'kermaniec' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'kermaniec' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<span class="tags-links"><i class="icon tags"></i>' . esc_html__( 'برچسب :  %1$s', 'kermaniec' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 			}
 		}
 
@@ -79,7 +79,7 @@ if ( ! function_exists( 'kermaniec_entry_footer' ) ) :
 				sprintf(
 					wp_kses(
 						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'kermaniec' ),
+						__( 'درج دیدگاه <span class="screen-reader-text"> در %s</span>', 'kermaniec' ),
 						array(
 							'span' => array(
 								'class' => array(),
@@ -96,7 +96,7 @@ if ( ! function_exists( 'kermaniec_entry_footer' ) ) :
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Edit <span class="screen-reader-text">%s</span>', 'kermaniec' ),
+					__( 'ویرایش <span class="screen-reader-text">%s</span>', 'kermaniec' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -127,7 +127,7 @@ if ( ! function_exists( 'kermaniec_post_thumbnail' ) ) :
 			?>
 
 			<div class="post-thumbnail">
-				<?php the_post_thumbnail(); ?>
+				<?php the_post_thumbnail('medium', array('class'=>'ui image medium floated left')); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>

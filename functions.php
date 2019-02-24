@@ -111,11 +111,47 @@ function kermaniec_widgets_init() {
 		'name'          => esc_html__( 'Sidebar', 'kermaniec' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'kermaniec' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'before_widget' => '<section id="%1$s" class="widget segment ui purple raised %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title' => '<span class="ui purple large ribbon label"><i class="angle left icon"></i> ',
+		'after_title' => '</span>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar', 'kermaniec' ),
+		'id'            => 'sidebar-2',
+		'description'   => esc_html__( 'Add widgets here.', 'kermaniec' ),
+		'before_widget' => '<section id="%1$s" class="widget segment ui purple raised %2$s">',
+		'after_widget'  => '</section>',
+		'before_title' => '<span class="ui purple large ribbon label">',
+		'after_title' => '</span>',
+	) );
+	register_sidebar(array(
+		'id' => 'azan',
+		'name' => __('اذان'),
+		'description' =>'نمایش دهنده اذان',
+		'before_widget' => '<div id="%1$s" class="content foothq %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="ui purple large ribbon label"><i class="icon clock"></i> ',
+		'after_title' => '</span>',
+	));
+		register_sidebar(array(
+		'id' => 'weather',
+		'name' => __('آب و هوا'),
+		'description' =>'نمایش دهنده آب و هوا',
+		'before_widget' => '<div id="%1$s" class="content foothq %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="ui purple large ribbon label"><i class="icon cloud"></i> ',
+		'after_title' => '</span>',
+	));
+	register_sidebar(array(
+		'id' => 'amar',
+		'name' => __('آمار'),
+		'description' =>'نمایش دهنده آمار',
+		'before_widget' => '<div id="%1$s" class="content foothq %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<span class="ui purple large ribbon label"><i class="chart bar outline icon"></i> ',
+		'after_title' => '</span>',
+	));
 }
 add_action( 'widgets_init', 'kermaniec_widgets_init' );
 

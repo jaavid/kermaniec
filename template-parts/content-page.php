@@ -34,17 +34,12 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'kermaniec' ),
-						array(
-							'span' => array(
-								'class' => array(),
-							),
-						)
+						__( 'ویرایش <span class="screen-reader-text">%s</span>', 'kermaniec' ),
+						array('span' => array('class' => array(),),)
 					),
 					get_the_title()
 				),
-				'<span class="edit-link">',
-				'</span>'
+				'<span class="ui button mini fluid">','</span>'
 			);
 			?>
 		</footer><!-- .entry-footer -->

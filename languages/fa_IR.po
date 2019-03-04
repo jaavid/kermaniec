@@ -1,0 +1,196 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-23 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-04 21:31+0330\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Language: fa_IR\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "متاسفانه صفحه مد نظر شما وجود ندارد."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"به نظر می رسد هیچ چیز در این مکان یافت نشد. شاید یکی از لینک های زیر را "
+"جستجو کنید یا جستجو کنید؟"
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr "بیشترین دسته های مورد استفاده"
+
+#. translators: %1$s: smiley
+#: 404.php:47
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "سعی کنید در آرشیو های ماهیانه نگاه کنید. %1$s"
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "یک دیدگاه در &ldquo;%1$s&rdquo;"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "نظرات بسته شده اند"
+
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "با افتخار نیرو گرفته از %s"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:25
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s توسط %2$s."
+
+#: functions.php:47
+msgid "Primary"
+msgstr "اصلی"
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr "ستون کناری"
+
+#: functions.php:107
+msgid "Add widgets here."
+msgstr "افزودن ابزارک"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "رفتن به محتوا"
+
+#: header.php:45
+msgid "Primary Menu"
+msgstr "فهرست اصلی"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr "، "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:55
+msgid "Posted in %1$s"
+msgstr "منتشر شده در %1$s"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+msgid "Tagged %1$s"
+msgstr "برچسب خورده با  %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:72
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"‫ <span class=\"screen-reader-text\"> نظرتا در خصوص  %s</span> را ثبت کنید"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:35
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای : %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد :("
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "جستجوی شما نتیجه‌ای در بر نداشت.لطفا با کلمات دیگری تلاش کنید."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"صفحه‌ای که به دنبال آن هستید پیدا نشد، جستجو ممکن است به پیدا کردن صفحه مد "
+"نظرتان کمک کند."
+
+#: template-parts/content-page.php:22 template-parts/content.php:45
+msgid "Pages:"
+msgstr "صفحات:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:34
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "ادامه <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr "_s"
+
+#. Theme URI of the plugin/theme
+msgid "https://underscores.me/"
+msgstr "https://underscores.me/"
+
+#. Description of the plugin/theme
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+msgstr ""
+"این قالب بر پایه _S  و به کمک فریمورک Semantic UI برای وب سایت شرکت شهرکهای "
+"صنعتی کرمان آماده شده است، از اینجا شروع کنید و قالب خودتان را بسازید."
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "اتوماتیک"
+
+#. Author URI of the plugin/theme
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "‫%1$s نظر برای &ldquo;%2$s&rdquo;"
+msgstr[1] "‫%1$s نظر برای &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "منتشر شده در  %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "توسط %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr "، "

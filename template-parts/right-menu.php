@@ -39,7 +39,7 @@
   <a href="https://iec.kr.ir/%d8%a7%d9%85%d9%88%d8%b1-%d9%81%d8%b1%d9%87%d9%86%da%af%db%8c" class="item">
     <i class="grid layout icon"></i> امور فرهنگی
   </a>
-  <a href="https://iec.kr.ir/2014-12-17-16-00-29" class="item">
+  <a href="#" class="item">
     <i class="grid layout icon"></i> بسیج
   </a>
   <div class="item">

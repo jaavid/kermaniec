@@ -12,32 +12,26 @@ body{direction:rtl;unicode-bidi:embed;}
  url('fonts/Vazir.woff2') format('woff2'),
  url('fonts/Vazir.woff') format('woff'),
  url('fonts/Vazir.ttf') format('truetype');font-weight:normal;font-style:normal;}
-/*@font-face{font-family:Vazir;src:url('fonts/Vazir-Bold.eot');src:url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
- url('fonts/Vazir-Bold.woff2') format('woff2'),
- url('fonts/Vazir-Bold.woff') format('woff'),
- url('fonts/Vazir-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
-@font-face{font-family:Vazir;src:url('fonts/Vazir-Black.eot');src:url('fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
- url('fonts/Vazir-Black.woff2') format('woff2'),
- url('fonts/Vazir-Black.woff') format('woff'),
- url('fonts/Vazir-Black.ttf') format('truetype');font-weight:900;font-style:normal;}
-@font-face{font-family:Vazir;src:url('fonts/Vazir-Medium.eot');src:url('fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
- url('fonts/Vazir-Medium.woff2') format('woff2'),
- url('fonts/Vazir-Medium.woff') format('woff'),
- url('fonts/Vazir-Medium.ttf') format('truetype');font-weight:500;font-style:normal;}
-@font-face{font-family:Vazir;src:url('fonts/Vazir-Light.eot');src:url('fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
- url('fonts/Vazir-Light.woff2') format('woff2'),
- url('fonts/Vazir-Light.woff') format('woff'),
- url('fonts/Vazir-Light.ttf') format('truetype');font-weight:300;font-style:normal;}
-@font-face{font-family:Vazir;src:url('fonts/Vazir-Thin.eot');src:url('fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
- url('fonts/Vazir-Thin.woff2') format('woff2'),
- url('fonts/Vazir-Thin.woff') format('woff'),
- url('fonts/Vazir-Thin.ttf') format('truetype');font-weight:100;font-style:normal;}*/
 #content{background-image:url(images/bg4.png);}
 div#primary>div.ui{background:#fff;}
-.ui.vertical.menu .item>i.icon, 
-.ui.vertical.menu .item>i.icons {
-    float: right !important;
-    margin: 0 0 0 .5em !important;
+.ui.vertical.menu .item>i.icon,
+.ui.vertical.menu .item>i.icons{float:right !important;margin:0 0 0 .5em !important;}
+.slider-for{max-height:400px !important;overflow:hidden;}
+footer{margin-bottom:0 !important;}
+.ui.labeled.icon.button>.icon,.ui.labeled.icon.buttons>.button>.icon,.ui.button{line-height:2 !important;}
+section#recent-posts-2 ul li{margin:0;padding:0;list-style:none;}
+section#recent-posts-2 ul{margin:0;padding:0;}
+.entry-meta .ui.button{line-height:1 !important;}
+table#wp-calendar {border-radius: 5px;box-shadow: 0 0 5px #ccc;}
+#wp-calendar td.pad,
+#wp-calendar tfoot td{border:none;background: #fff !important;}
+#wp-calendar td{border:solid 1px;text-align:center;line-height:2;border-radius:5px;}
+td#today{border:none;background:#000 !important;}
+#wp-calendar td a{display:block;background-color:#999;color:#fff;border-radius:5px;}
+#wp-calendar th {background: #999999; border-radius: 5px 5px 0 0 ;color:#FFFFFF;}
+#wp-calendar th:last-child, #wp-calendar tr td:last-child {
+    background: red;
+    color: #fff;
+    border: none;
 }
-.slider-for{max-height: 400px !important; overflow: hidden;}
-footer { margin-bottom: 0 !important;}
+.nav-previous {text-align: left;}

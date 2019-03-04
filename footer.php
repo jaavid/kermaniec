@@ -53,6 +53,14 @@
 				<a href="https://github.com/jaavid/kermaniec" class="ui button secondary tiny icon">
 					<i class="icon github"></i>
 				</a>
+				
+				<a href="https://iec.kr.ir/privacy" class="ui button secondary tiny icon">
+					<i class="info circle icon"></i>
+				</a>
+				<a href="https://iec.kr.ir/sla" class="ui button secondary tiny icon">
+					<i class="info circle icon"></i>
+				</a>
+				
 			</div>				
 		</div>
 		</footer>		
@@ -88,7 +96,25 @@
 		</script>
 	<?php } ?>
 <script type="text/javascript" charset="utf-8">
-	jQuery(function($) {$(document).ready(function(){$('.foothq').matchHeight();$('.special.card .image').dimmer({on: 'hover'});});});
+	jQuery(function($) {
+		$(document).ready(function(){
+			//var resizePopup = function(){$('.ui.popup').css('max-height', $(window).height());};
+			//	$(window).resize(function(e){resizePopup();});			
+				$('.foothq').matchHeight();
+				$('.nav-links div').matchHeight();
+				$('.special.card .image').dimmer({on: 'hover'});
+				$('.entry-content .ui.accordion')
+				  .accordion({
+				    selector: {
+				      trigger: '.title'
+				    }
+				  });
+			//	$('.eforms').popup({inline: true,hoverable: true,position:'bottom right',lastResort:'bottom right',
+			//       onShow: function(){resizePopup();},
+			//	    delay: {show: 100,hide: 800}
+			//	  });				
+			});
+		});
 </script>
 </body>
 </html>

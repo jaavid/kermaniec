@@ -18,12 +18,12 @@
 										} else {
 											?><img width="200" height="200" src="/wp-content/uploads/2014/12/cropped-images_news_Arm00-111-180x180.jpg" alt="<?php the_title(); ?>" /><?php
 										}
-									?>
+									?>								
 								  <div class="ui violet label large left ribbon">
 								  	<i class="calendar icon"></i> <?php unset($previousday); the_date(); ?> <i class="icon clock"></i> <?php the_time(); ?>
 								  </div>
 								</div>								
-								<h3 style="clear:none;"><?php the_title(); ?></h3>
+								<a href="<?php the_permalink(); ?>"><h3 style="clear:none; text-align: justify"><?php the_title(); ?></h3></a>
 								<?php the_excerpt(); ?>
 						      				
 							  <span class="ui tag tiny labels">	
@@ -122,10 +122,14 @@
 				      <img src="https://iec.kr.ir/wp-content/uploads/2016/04/logo.jpg">
 				  	</a>				    
 				  </div>				  
-			  		<a href="https://t.me/ieckerman" class="ui telegram fluid labeled icon large button"><i class="telegram icon"></i>کانال تلگرام</a>
+			  		<!-- <a href="https://t.me/ieckerman" class="ui telegram fluid labeled icon large button"><i class="telegram icon"></i>کانال تلگرام</a> -->
 			  		<br />
 			  		<a href="http://behinyab.ir/" class="ui violet fluid tiny button">درگاه اطلاعات و خدمات صنعت، معدن و تجارت(بهین یاب)</a>
 			  		<br />
+			  		<a href="http://iec.kr.ir/privacy" class="ui purple fluid large labeled icon button"><i class="info icon"></i>  حریم خصوصی </a>
+			  		<br />
+			  		<a href="http://iec.kr.ir/sla" class="ui purple fluid large labeled icon button"><i class="info icon"></i> بیانیه توافق سطح خدمت  </a>
+			  		<br />			  	
 			  		<a href="http://iec.kr.ir/%D9%81%D8%B1%D9%85-%D9%86%D8%B8%D8%B1%D8%B3%D9%86%D8%AC%DB%8C-%D8%A7%D8%B1%D8%A8%D8%A7%D8%A8-%D8%B1%D8%AC%D9%88%D8%B9" class="ui purple fluid large labeled icon button"><i class="poll icon"></i> نظرسنجی ارباب رجوع</a>			
 			  	<hr />
 			  	Monasebat			  
@@ -156,6 +160,7 @@
 										?>	
 								  	</a>						 
 						      <?php the_excerpt(); ?>
+						      <br style="clear:both">
 						      <div class="ui violet label tiny left ribbon">
 							  	<i class="calendar icon"></i> <?php unset($previousday); the_date(); ?> <i class="icon clock"></i> <?php the_time(); ?>
 							  </div>				
@@ -253,29 +258,23 @@
 		  			<br />
 		  			<div class="content">
 		  				<br />
-					  	<a href= "http://btsc-kr.ir/" class="ui large purple fluid  inverted tag label">مرکز فناوری کسب و کار</a>
-					  	<br /><br />
-					  	<a href="http://kerman.techmart.ir/" class="ui large purple fluid  inverted tag label">فن بازار کرمان</a>
-					  	<br /><br />
-					  	<a href="http://sif.ir/" class="ui large purple fluid  inverted tag label">صندوق ضمانت سرمایه گذاری صنایع کوچک</a>
-					  	<br /><br />
-					  	<a href="http://kccd.ir/" class="ui large purple fluid  inverted tag label">خوشه کسب و کار فرش دستباف   </a>
-					  	<br /><br />
-					  	<a href="http://jiroftgolkhane.ir/" class="ui large purple fluid  inverted tag label">خوشه کسب و کار محصولات گلخانه ای </a>
-					  	<br /><br />			  	
-					  	<a href="http://iranpistachio.org/" class="ui large purple fluid  inverted tag label">انجمن پسته</a>
-					  	<br /><br />
-					  	<a href="http://kermanpda.com/" class="ui large purple fluid  inverted tag label">انجمن خرما</a>
-					  	<br /><br />
-					  	<a href="http://kerman.isipo.ir/" class="ui large purple fluid  inverted tag label">سامانه دریافت انشعابات</a>
-					  	<br /><br />
-					  	<a href="http://gis.isipo.ir/" class="ui large purple fluid  inverted tag label">سامانه اطلاعات مکانی</a>
+		  				<div class="ui vertical basic buttons fluid labeled icon basic blue mini">
+					  	<a href= "http://btsc-kr.ir/" 			class="button ui"><i class="linkify icon"></i> مرکز فناوری کسب و کار</a>
+					  	<a href="http://kerman.techmart.ir/" 	class="button ui"><i class="linkify icon"></i> فن بازار کرمان</a>
+					  	<a href="http://sif.ir/" 				class="button ui"><i class="linkify icon"></i> صندوق ضمانت سرمایه گذاری صنایع کوچک</a>
+					  	<a href="http://kccd.ir/" 				class="button ui"><i class="linkify icon"></i> خوشه کسب و کار فرش دستباف   </a>
+					  	<a href="http://jiroftgolkhane.ir/" 	class="button ui"><i class="linkify icon"></i> خوشه کسب و کار محصولات گلخانه ای </a>
+					  	<a href="http://iranpistachio.org/" 	class="button ui"><i class="linkify icon"></i> انجمن پسته</a>
+					  	<a href="http://kermanpda.com/" 		class="button ui"><i class="linkify icon"></i> انجمن خرما</a>
+					  	<a href="http://kerman.isipo.ir/" 		class="button ui"><i class="linkify icon"></i> سامانه دریافت انشعابات</a>
+					  	<a href="http://gis.isipo.ir/" 			class="button ui"><i class="linkify icon"></i> سامانه اطلاعات مکانی</a>
+						</div>	
 					</div>	
 			  	</div>
 			  	<div class="segment raised purple ui">
 		  			<a class="ui purple large ribbon label"><i class="newspaper icon"></i> نشریات استان کرمان</a>
 		  			<div class="content">
-		  				<script src="https://teetr.ir/widget" type="text/javascript" charset="utf-8"></script>
+		  				<script src="https://teetr.ir/widget/" type="text/javascript" charset="utf-8"></script>
 		  			</div>
 		  			<div class="ui bottom attached label">تیتر : سامانه نشریات استان کرمان</div>
 		  		</div>

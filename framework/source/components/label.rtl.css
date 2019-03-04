@@ -605,36 +605,36 @@ a.ui.basic.label:hover {
 
 .ui.primary.labels .label,
 .ui.ui.ui.primary.label {
-  background-color: #2185D0;
-  border-color: #2185D0;
+  background-color: #8D5E8C;
+  border-color: #8D5E8C;
   color: rgba(255, 255, 255, 0.9);
 }
 
 /* Link */
 .ui.primary.labels a.label:hover,
 a.ui.ui.ui.primary.label:hover {
-  background-color: #1678c2;
-  border-color: #1678c2;
+  background-color: #80527f;
+  border-color: #80527f;
   color: #FFFFFF;
 }
 
 /* Ribbon */
 .ui.ui.ui.primary.ribbon.label {
-  border-color: #1a69a4;
+  border-color: #6e4a6e;
 }
 
 /* Basic */
 .ui.basic.labels .primary.label,
 .ui.ui.ui.basic.primary.label {
   background: none #FFFFFF;
-  border-color: #2185D0;
-  color: #2185D0;
+  border-color: #8D5E8C;
+  color: #8D5E8C;
 }
 .ui.basic.labels a.primary.label:hover,
 a.ui.ui.ui.basic.primary.label:hover {
   background: none #FFFFFF;
-  border-color: #1678c2;
-  color: #1678c2;
+  border-color: #80527f;
+  color: #80527f;
 }
 
 /* Inverted */
@@ -687,36 +687,36 @@ a.ui.ui.ui.inverted.basic.primary.label:hover {
 }
 .ui.secondary.labels .label,
 .ui.ui.ui.secondary.label {
-  background-color: #1B1C1D;
-  border-color: #1B1C1D;
+  background-color: #6435C9;
+  border-color: #6435C9;
   color: rgba(255, 255, 255, 0.9);
 }
 
 /* Link */
 .ui.secondary.labels a.label:hover,
 a.ui.ui.ui.secondary.label:hover {
-  background-color: #27292a;
-  border-color: #27292a;
+  background-color: #7142d6;
+  border-color: #7142d6;
   color: #FFFFFF;
 }
 
 /* Ribbon */
 .ui.ui.ui.secondary.ribbon.label {
-  border-color: #020203;
+  border-color: #502aa1;
 }
 
 /* Basic */
 .ui.basic.labels .secondary.label,
 .ui.ui.ui.basic.secondary.label {
   background: none #FFFFFF;
-  border-color: #1B1C1D;
-  color: #1B1C1D;
+  border-color: #6435C9;
+  color: #6435C9;
 }
 .ui.basic.labels a.secondary.label:hover,
 a.ui.ui.ui.basic.secondary.label:hover {
   background: none #FFFFFF;
-  border-color: #27292a;
-  color: #27292a;
+  border-color: #7142d6;
+  color: #7142d6;
 }
 
 /* Inverted */
@@ -1425,36 +1425,36 @@ a.ui.ui.ui.inverted.basic.violet.label:hover {
 }
 .ui.purple.labels .label,
 .ui.ui.ui.purple.label {
-  background-color: #A333C8;
-  border-color: #A333C8;
+  background-color: #8D5E8C;
+  border-color: #8D5E8C;
   color: #FFFFFF;
 }
 
 /* Link */
 .ui.purple.labels a.label:hover,
 a.ui.ui.ui.purple.label:hover {
-  background-color: #9627ba;
-  border-color: #9627ba;
+  background-color: #80527f;
+  border-color: #80527f;
   color: #FFFFFF;
 }
 
 /* Ribbon */
 .ui.ui.ui.purple.ribbon.label {
-  border-color: #82299f;
+  border-color: #6e4a6e;
 }
 
 /* Basic */
 .ui.basic.labels .purple.label,
 .ui.ui.ui.basic.purple.label {
   background: none #FFFFFF;
-  border-color: #A333C8;
-  color: #A333C8;
+  border-color: #8D5E8C;
+  color: #8D5E8C;
 }
 .ui.basic.labels a.purple.label:hover,
 a.ui.ui.ui.basic.purple.label:hover {
   background: none #FFFFFF;
-  border-color: #9627ba;
-  color: #9627ba;
+  border-color: #80527f;
+  color: #80527f;
 }
 
 /* Inverted */

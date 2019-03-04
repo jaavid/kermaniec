@@ -418,13 +418,13 @@
 ---------------*/
 
 .ui.primary.progress .bar {
-  background-color: #2185D0;
+  background-color: #8D5E8C;
 }
 .ui.primary.inverted.progress .bar {
   background-color: #54C8FF;
 }
 .ui.secondary.progress .bar {
-  background-color: #1B1C1D;
+  background-color: #6435C9;
 }
 .ui.secondary.inverted.progress .bar {
   background-color: #545454;
@@ -478,7 +478,7 @@
   background-color: #A291FB;
 }
 .ui.purple.progress .bar {
-  background-color: #A333C8;
+  background-color: #8D5E8C;
 }
 .ui.purple.inverted.progress .bar {
   background-color: #DC73FF;

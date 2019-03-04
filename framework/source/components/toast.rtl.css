@@ -128,14 +128,14 @@
 -------------- */
 
 .primary.toast {
-  background-color: #2185D0;
+  background-color: #8D5E8C;
 }
 .inverted.primary.toast,
 .toast-box .inverted.primary.attached.progress .bar {
   background-color: #54C8FF;
 }
 .secondary.toast {
-  background-color: #1B1C1D;
+  background-color: #6435C9;
 }
 .inverted.secondary.toast,
 .toast-box .inverted.secondary.attached.progress .bar {
@@ -198,7 +198,7 @@
   background-color: #A291FB;
 }
 .purple.toast {
-  background-color: #A333C8;
+  background-color: #8D5E8C;
 }
 .inverted.purple.toast,
 .toast-box .inverted.purple.attached.progress .bar {

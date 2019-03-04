@@ -620,10 +620,10 @@
   color: #FFFFFF;
 }
 .ui.purple.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #A333C8;
+  border-top: 2px solid #8D5E8C;
 }
 .ui.inverted.purple.segment.segment.segment.segment.segment {
-  background-color: #A333C8;
+  background-color: #8D5E8C;
   color: #FFFFFF;
 }
 .ui.pink.segment.segment.segment.segment.segment:not(.inverted) {

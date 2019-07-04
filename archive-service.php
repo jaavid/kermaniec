@@ -18,15 +18,16 @@ get_header(); ?>
 				<div class="nine wide column">
 				<?php if ( have_posts() ) : ?>
 					<header class="ui segment centered inverted purple raised">
-						<a href="http://eservice.isipo.ir/" class="ui fluid button floated left large icon labeled green" target="_blank">
+						<!-- <a href="http://eservice.isipo.ir/" class="ui fluid button floated left large icon labeled green" target="_blank">
 							<i class="globe icon"></i>
 							ورود به 
 							سامانه ميزخدمت و درگاه خدمات الكترونيكي : 
 							سازمان صنایع کوچک و شهرک های صنعتی ایران
 						</a>
-						<br />
-						<h1 class="centered">میز خدمت شرکت شهرکهای صنعتی استان کرمان</h1>
-						<h3>
+						<br /> -->
+						<h3 class="centered">به میز خدمت شرکت شهرکهای صنعتی استان کرمان خوش آمدید.</h3>
+						<h5 class="centered">کاربر گرامی، برای کارایی بهتر این صفحه از مرورگر Chrome استفاده کنید.</h5>
+						<!-- <h3>
 							با کلیک بر روی آیکون
 							<button class="ui icon button mini red" target="_blank" style="line-height: 1 !important"> 
 								<i class="icon file pdf"></i> 
@@ -39,7 +40,7 @@ get_header(); ?>
 								<i class="icon file word"></i> 
 							</button>
 							میتوانید فایل ورد مراحل فرآیند هر خدمت را دریافت کنید.
-						</h3>
+						</h3> -->
 					</header><!-- .page-header -->
 					<?php
 					/* Start the Loop */

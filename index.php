@@ -35,7 +35,11 @@ get_header();
 					 */
 					get_template_part( 'template-parts/content', get_post_type() );
 				endwhile;
-				the_posts_navigation();
+				if(function_exists('wp_paginate')) :
+				    wp_paginate('range=4&anchor=2&nextpage=بعدی&previouspage=قبلی');
+				else:
+				the_posts_navigation();	
+				endif;
 			else :
 				get_template_part( 'template-parts/content', 'none' );
 			endif;

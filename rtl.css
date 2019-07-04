@@ -8,10 +8,10 @@ https://codex.wordpress.org/Right-to-Left_Language_Support
 /*
 body{direction:rtl;unicode-bidi:embed;}
 */
-@font-face{font-family:Vazir;src:url('fonts/Vazir.eot');src:url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
- url('fonts/Vazir.woff2') format('woff2'),
- url('fonts/Vazir.woff') format('woff'),
- url('fonts/Vazir.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:Vazir;src:url('fonts/Vazir-Medium.eot');src:url('fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+ url('fonts/Vazir-Medium.woff2') format('woff2'),
+ url('fonts/Vazir-Medium.woff') format('woff'),
+ url('fonts/Vazir-Medium.ttf') format('truetype');font-weight:normal;font-style:normal;}
 #content{background-image:url(images/bg4.png);}
 div#primary>div.ui{background:#fff;}
 .ui.vertical.menu .item>i.icon,
@@ -35,3 +35,25 @@ td#today{border:none;background:#000 !important;}
     border: none;
 }
 .nav-previous {text-align: left;}
+.headerimage {
+    background-image: url('https://iec.kr.ir/wp-content/uploads/2016/08/95.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a368a6;
+    min-height: 150px;
+}
+section#ztjalali_archive-2 ul li {
+    list-style: none;
+    padding: 5px;
+    display: block;
+    margin: 7px 0;
+    box-shadow: 0 0 5px;
+    border-radius: 2px;
+}
+
+div#wp_statistics_widget-3 ul, section#ztjalali_archive-2 ul {margin: 0;padding: 0;}
+div#wp_statistics_widget-3 ul li {
+    list-style: none;
+    padding: 5px 0;
+}

@@ -8,7 +8,7 @@
 ?>
 	</div><!-- #content -->
 		<footer class="ui grid grey inverted segment">
-		  <div class="four wide column">
+		  <div class="eight wide mobile eight wide tablet four wide computer column">		  	
 		  	<div class="inverted grey ui">
 		  		<div class="segment stacked purple ui">
 		  			<div class="content foothq widget_azan">
@@ -21,26 +21,27 @@
 						کدپستی :۷۶۱۴۶۵۶۳۹۴
 						<br><i class="icon phone"></i>
 						شماره تماس : ۴-۳۱۲۷۲۰۰۰۰-۰۳۴
-					
+						<br><i class="icon phone"></i>
+						 تلفن گویا : ۱۵۷۰
 		  			</div>
 		  		</div>
 		  	</div>
 		  </div>
-		  <div class="four wide column">
+		  <div class="eight wide mobile eight wide tablet four wide computer column">
 		  	<div class="inverted grey ui">
 		  		<div class="segment stacked purple ui">		  			      
 	  				<?php dynamic_sidebar('weather'); ?>
 		  		</div>
 		  	</div>
 		  </div>
-		  <div class="four wide column">
+		  <div class="eight wide mobile eight wide tablet four wide computer column">
 		  	<div class="inverted grey ui">
 		  		<div class="segment stacked purple ui">	  			      
 	  				<?php dynamic_sidebar('azan'); ?>
 		  		</div>
 		  	</div>
 		  </div>
-		  <div class="four wide column">
+		  <div class="eight wide mobile eight wide tablet four wide computer column">
 		  	<div class="inverted grey ui">
 		  		<div class="segment stacked purple ui">	  			      
 	  				<?php dynamic_sidebar('amar'); ?>
@@ -65,36 +66,7 @@
 		</div>
 		</footer>		
 </div><!-- #page -->
-<?php wp_footer(); ?>
-	<?php if (is_front_page()) { ?>
-		<script type="text/javascript" charset="utf-8">
-			jQuery(function($) {		
-			    $(document).ready(function(){
-			    	$('.eqheight').matchHeight();	    	
-			    	$('.home-tabs.menu .item').tab();
-			    	$('.slider-for').slick({
-					  slidesToScroll: 	1,
-					  slidesToShow: 	1,			  
-					  asNavFor: 		'.slider-nav',
-					  autoplay: 		true,
-					  arrows: 			true,
-					  fade: 			true,
-					  rtl: 				true,
-					});
-					$('.slider-nav').slick({			  
-					  slidesToScroll: 	1,
-					  focusOnSelect: 	true,
-					  slidesToShow: 	3, 			  
-					  centerMode: 		true,
-					  asNavFor: 		'.slider-for',
-					  autoplay: 		true,
-					  dots: 			true,
-					  rtl: 				true
-					});
-			    });
-			});
-		</script>
-	<?php } ?>
+<?php wp_footer(); ?>	
 <script type="text/javascript" charset="utf-8">
 	jQuery(function($) {
 		$(document).ready(function(){

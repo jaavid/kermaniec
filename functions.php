@@ -214,3 +214,31 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * IEC additions.
  */
 require get_template_directory() . '/inc/iec.php';
+
+add_filter( 'wpseo_breadcrumb_links', 'yoast_seo_breadcrumb_append_link' );
+function yoast_seo_breadcrumb_append_link( $links ) {
+    global $post;
+    if ( is_singular( 'service') ) {
+        $breadcrumb[] = array(
+            'url' => site_url( '/iec-eservices' ),
+            'text' => 'میز خدمت الکترونیکی',
+        );
+        array_splice( $links, 1, -2, $breadcrumb );
+    }
+    return $links;
+}
+
+
+// Add Service ID to Edit services in backend
+add_filter( 'manage_edit-service_columns', 'add_columns' );
+
+function add_columns( $columns ) {
+    $columns['sid'] = 'شناسه خدمت';
+    return $columns;
+}
+add_action( 'manage_service_posts_custom_column', 'columns_content', 10, 2 );
+function columns_content( $column_name, $post_id ) {
+    if ( 'sid' != $column_name ) {return;}
+	$return 	= get_post_meta( $post_id, 'serviceid', true );
+	echo $return;
+}

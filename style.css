@@ -473,3 +473,4 @@ object{max-width:100%;}
 .gallery-columns-9 .gallery-item{max-width:11.11%;}
 .gallery-caption{display:block;}
 .ui.horizontal.segments.equal.width > .ui.segment{flex-grow:1;width:0;}
+.page-template-template-eservice .list.inverted.grey .header {line-height: 2;}

@@ -8,7 +8,7 @@
 		<br />
 		سازمان صنایع کوچک و شهرک‌های صنعتی ایران 
 	</a> -->
-<a href="http://eservice.isipo.ir/" class="ui red fluid mini labeled icon button">
+<a href="https://iec.kr.ir/wp-content/uploads/2019/07/راهنمای-استفاده-از-میز-خدمت-الکترونیکی-شرکت-شهرک-های-صنعتی-.pdf" class="ui red fluid mini labeled icon button">
 		<i class="file pdf icon"></i>
 		راهنمای استفاده از میز خدمت الکترونیک
 	</a>	

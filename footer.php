@@ -81,6 +81,9 @@
 				      trigger: '.title'
 				    }
 				  });
+				$('#servicecomments').click(function(){
+			        $('#servicemodal').modal('show');    
+			     });  
 			//	$('.eforms').popup({inline: true,hoverable: true,position:'bottom right',lastResort:'bottom right',
 			//       onShow: function(){resizePopup();},
 			//	    delay: {show: 100,hide: 800}

@@ -76,7 +76,7 @@ get_header();
 															$spod 		= pods('service', get_the_id());
 															$shenasname = $spod -> field('shenasname');
 														 ?>
-														<a href="<?= $shenasname['guid'] ?>"><i class="file pdf icon red"></i></a> 
+														<a href="<?= $shenasname['guid'] ?>" download="شناسنامه - <?= the_title(); ?>"><i class="file pdf icon red"></i></a> 
 													</div>
 												</div>
 											<?php }else{ ?>
@@ -89,7 +89,7 @@ get_header();
 															$spod 		= pods('service', get_the_id());
 															$shenasname = $spod -> field('shenasname');
 														 ?>
-														<a href="<?= $shenasname['guid'] ?>"><i class="file pdf icon red"></i></a> 
+														<a href="<?= $shenasname['guid'] ?>" download="شناسنامه - <?= the_title(); ?>"><i class="file pdf icon red"></i></a> 
 													</div>
 													<div class="content">
 														<div class="transition ui segment inverted grey raised">
@@ -118,7 +118,7 @@ get_header();
 																							$spod 		= pods('service', get_the_id());
 																							$shenasname = $spod -> field('shenasname');
 																						 ?>
-																						<a href="<?= $shenasname['guid'] ?>"><i class="file pdf icon red"></i></a> 
+																						<a href="<?= $shenasname['guid'] ?>" download="شناسنامه - <?= the_title(); ?>"><i class="file pdf icon red"></i></a> 
 																					</div>
 																				</div>
 																			</div>

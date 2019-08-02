@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jaavid/kermaniec#readme",
   "dependencies": {
-    "fomantic-ui": "^2.7.2",
-    "gulp": "^4.0.0"
+    "fomantic-ui": "^2.7.7",
+    "gulp": "^4.0.2"
   }
 }
